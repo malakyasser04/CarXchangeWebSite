@@ -55,6 +55,7 @@ Start the Frontend Client (in a new terminal tab):
 bash
 
 cd client
+
 npm install axios react-router-dom sweetalert2
 
 npm start
