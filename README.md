@@ -35,23 +35,20 @@ Separate Terminal Tabs
 Start the Backend Server:
 
 bash
+
 cd server
+
 npm start
+
 Server will run on http://localhost:5000
 
 Start the Frontend Client (in a new terminal tab):
 
 bash
+
 cd client
+
 npm start
 
 
 
-
-graph LR
-    A[React Frontend] -->|Axios| B[Express API]
-    B -->|Mongoose| C[MongoDB]
-    A --> D[AI Chatbot]
-    D -->|OpenRouter API| E[GPT-3.5 Turbo]
-    C --> F[(User Data)]
-    C --> G[(Vehicle Listings)]
