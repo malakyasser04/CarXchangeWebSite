@@ -44,6 +44,8 @@ bash
 
 cd server
 
+npm install express nodemon mongoose bcryptjs jsonwebtoken cors dotenv  multer cloudinary  
+
 npm start
 
 Server will run on http://localhost:5000
@@ -53,6 +55,7 @@ Start the Frontend Client (in a new terminal tab):
 bash
 
 cd client
+npm install axios react-router-dom sweetalert2
 
 npm start
 
