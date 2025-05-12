@@ -5,11 +5,17 @@ The Modern Way to Buy & Sell Vehicles
 CarXchange revolutionizes automotive transactions with an AI-powered platform that eliminates fees, delays, and uncertainty. this full-stack application combines intuitive design with cutting-edge technology to create a seamless car trading experience.
 
 # ✨ Key Features
+
 Feature	Description
+
 🤖 AI Car Assistant	24/7 chatbot for vehicle advice 
+
 🔐 Secure Auth	JWT authentication + bcrypt password hashing
+
 📸 Rich Listings	Upload 3-15 images per vehicle with detailed specs
+
 🔍 Smart Search	Filter by make, model and year
+
 
 #🛠️ Tech Stack
 
