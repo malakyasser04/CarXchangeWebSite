@@ -1,2 +1,57 @@
-# CarXchangeWebSite
-CarXchange - Modern Automotive Marketplace   The smarter way to buy and sell vehicles – A full-stack web platform connecting car buyers and sellers with AI-powered assistance.
+# CarXchange 🚗💡
+The Modern Way to Buy & Sell Vehicles
+
+# Project Overview
+CarXchange revolutionizes automotive transactions with an AI-powered platform that eliminates fees, delays, and uncertainty. this full-stack application combines intuitive design with cutting-edge technology to create a seamless car trading experience.
+
+# ✨ Key Features
+Feature	Description
+🤖 AI Car Assistant	24/7 chatbot for vehicle advice 
+🔐 Secure Auth	JWT authentication + bcrypt password hashing
+📸 Rich Listings	Upload 3-15 images per vehicle with detailed specs
+🔍 Smart Search	Filter by make, model and year
+
+#🛠️ Tech Stack
+
+Frontend
+→ React.js + Tailwind CSS HTML Javascript
+
+
+Backend
+→ Node.js/Express.js REST API
+→ JWT authentication middleware
+
+Database
+→ MongoDB 
+→ Multer for secure image uploads
+
+AI Integration
+→ OpenAI GPT-3.5 Turbo via OpenRouter API
+
+
+# To Run the Application
+Separate Terminal Tabs 
+
+Start the Backend Server:
+
+bash
+cd server
+npm start
+Server will run on http://localhost:5000
+
+Start the Frontend Client (in a new terminal tab):
+
+bash
+cd client
+npm start
+
+
+
+
+graph LR
+    A[React Frontend] -->|Axios| B[Express API]
+    B -->|Mongoose| C[MongoDB]
+    A --> D[AI Chatbot]
+    D -->|OpenRouter API| E[GPT-3.5 Turbo]
+    C --> F[(User Data)]
+    C --> G[(Vehicle Listings)]
